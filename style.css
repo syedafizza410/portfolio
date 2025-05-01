@@ -202,6 +202,7 @@ span {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    margin-top: 3%;
 }
 
 .container .box {
@@ -213,7 +214,7 @@ span {
 }
 
 .box img{
-    width: 200%;
+    width: 150%;
 }
 
 .box:hover img{
