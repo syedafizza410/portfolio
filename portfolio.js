@@ -45,7 +45,15 @@ ScrollReveal().reveal('.home-page p, .about-me', {origin: 'rightp'});
 
 
 const typed = new Typed('.text', {
-    strings: ['Frontend Developer', 'Full Stack Developer', 'Student', 'Freelancer'],
+    strings: ['AI Agent Developer', 'Full Stack Developer', 'Frontend Developer', 'Freelancer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
+
+const type = new Typed('.abouttext', {
+    strings: ['AI Agent Developer', 'Full Stack Developer', 'Frontend Developer', 'Freelancer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
