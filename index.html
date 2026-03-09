@@ -169,21 +169,34 @@ I am passionate about continuously learning new technologies and improving my sk
             </section>
 
     <section class="contact" id="contact">
-        <h2 class="h1">Contact <span>Me!</span></h2>
-        <form>
-            <div class="box-in">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-            </div>
-            <div class="box-in">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <br />
-            <button type="submit" class="tsv">Send Message</button>
-            </div>
-        </form>
-    </section>
+
+<h2 class="h1">Contact <span>Me!</span></h2>
+
+<form onsubmit="sendToWhatsApp(); return false;">
+
+<div class="box-in">
+
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="email" id="email" placeholder="Email Address" required>
+
+</div>
+
+<div class="box-in">
+
+<input type="number" id="phone" placeholder="Mobile Number" required>
+<input type="text" id="subject" placeholder="Email Subject" required>
+
+<textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+<br>
+
+<button type="submit" class="tsv">Send Message</button>
+
+</div>
+
+</form>
+
+</section>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
